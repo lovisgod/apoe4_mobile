@@ -122,6 +122,7 @@ public class TodayFragment extends Fragment {
         PermisionManager.requestPermision(getContext(), LOCATION_REQUEST_CODE,getActivity());
     }
 
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (requestCode == LOCATION_REQUEST_CODE)  {
