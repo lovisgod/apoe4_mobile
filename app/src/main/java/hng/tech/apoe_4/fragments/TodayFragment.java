@@ -171,7 +171,7 @@ public class TodayFragment extends Fragment {
         genInflater = inflater;
 
 
-//        submit_button = view.findViewById(R.id.submit_button);
+
 
 
 
@@ -316,8 +316,7 @@ public class TodayFragment extends Fragment {
         anim.setDuration(2000);
         stepsProgress.startAnimation(anim);
     }
-//this prepares the recycler view
-// this methods fetch the data from the json asset file and displays the data
+
 
     public static TodayFragment newInstance() {
         

@@ -254,6 +254,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<AuthResponse> call, Response<AuthResponse> response) {
 
+                Log.d("TAG", "onResponse: "+ response.message());
+
                 if (response.isSuccessful()) {
                     prog.setVisibility(View.INVISIBLE);
                     text5.setVisibility(View.VISIBLE);
