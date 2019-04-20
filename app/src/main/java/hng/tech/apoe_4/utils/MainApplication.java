@@ -20,7 +20,7 @@ public class MainApplication extends MultiDexApplication {
     private static MainApplication instance;
     private static ApiInterface apiInterface;
 
-    public static String BASE_URL = "http://demo-apoe4.herokuapp.com/api/v1/api/v1/";
+    public static String BASE_URL = " http://demo-apoe4.herokuapp.com/api/v1/";
 
 
     Gson gson = new GsonBuilder()
